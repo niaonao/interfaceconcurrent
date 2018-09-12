@@ -20,9 +20,7 @@ public class ConcurrentRegister {
     private final static int NUM_10 = 10;
 
     public static void main(String args[]) {
-
         initData();
-
         requestUrl();
     }
 
