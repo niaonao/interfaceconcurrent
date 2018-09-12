@@ -23,7 +23,7 @@ public class ConcurrentRegister {
 
         initData();
 
-        requesetUrl();
+        requestUrl();
     }
 
     /**
@@ -51,7 +51,7 @@ public class ConcurrentRegister {
     /**
      * 请求接口方法
      */
-    private static void requesetUrl() {
+    private static void requestUrl() {
         final Runnable runnable = new Runnable() {
             public void run() {
                 TransObjectByHttp.sendToWeb(objectToJson, interfaceUrl);
