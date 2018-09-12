@@ -47,6 +47,7 @@ public class BaseResult implements Serializable {
 ## 测试方式
 &nbsp;&nbsp;开启多线程通过Http 请求并行访问接口。
 ## 测试结果
+![这是一张图片](https://github.com/niaonao/ImageIcon/blob/master/IDEAProject/interfaceconcurrent/20180912154828_userRegister.jpg)
 ```
 TransObjectByHttp: 请求数据 - {"treasureID":"402216352","treasureDESKey":"u+p50xk3Ak0sdCP2OfB144Vi/sBPl/UbXE0qVyYOoWopjky9Cj2TbfptQuFRAno8LrREdL43JQTI6IZR1bGT/tRBTAEySbMaSCqAKBMplRPCnJoF6hsux0oJ2o/dJW+q9MRmtdwOCVWjfsp25nrkCwt6TTbiYAmULWrkC/8Mwlk=","treasureData":"{\"userPhone\":\"15738539120\",\"userPassword\":\"1357ac90\",\"phoneCode\":\"666666\"}"}
 TransObjectByHttp: 请求数据 - {"treasureID":"402216352","treasureDESKey":"u+p50xk3Ak0sdCP2OfB144Vi/sBPl/UbXE0qVyYOoWopjky9Cj2TbfptQuFRAno8LrREdL43JQTI6IZR1bGT/tRBTAEySbMaSCqAKBMplRPCnJoF6hsux0oJ2o/dJW+q9MRmtdwOCVWjfsp25nrkCwt6TTbiYAmULWrkC/8Mwlk=","treasureData":"{\"userPhone\":\"15738539120\",\"userPassword\":\"1357ac90\",\"phoneCode\":\"666666\"}"}
